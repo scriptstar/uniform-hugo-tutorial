@@ -165,14 +165,13 @@ models:
     label: Features
     file: features.json
     fields:
-      - type: list
-        name: feature
-        label: Features
+      - type: object
+        name: highlights
+        label: Highlights
         items:
           type: object
+          label: Highlight
           labelField: title
-          name: feature
-          label: Feature
           fields:
             - type: string
               name: title
