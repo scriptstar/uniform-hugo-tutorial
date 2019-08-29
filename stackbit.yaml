@@ -165,9 +165,8 @@ models:
     label: Features
     file: features.json
     fields:
-      - type: object
+      - type: list
         name: highlights
-        label: Highlights
         items:
           type: object
           label: Highlight
